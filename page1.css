@@ -1,0 +1,24 @@
+.about-us{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+.about-us .para{
+    width: 65svw;
+    margin-left: 1vw;
+}
+.about-us .image{
+    width: 35vw;
+    border-radius: 100px 0 0 100px;
+    background-color: #343434;
+    background-image: url(badge1.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80%;
+}
+
+
+  

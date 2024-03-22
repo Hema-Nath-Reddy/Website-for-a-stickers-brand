@@ -1,0 +1,36 @@
+.parallax {
+    margin-top: 0.5vw;
+    background-image: url("a3-1.jpg");
+    min-height: 41vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5vw;
+  }
+
+.about, .mission, .vision, .motto{
+    margin: 2vw 2vw 1vw 2vw;
+    padding: 2vw;
+    border-radius: 20px;
+    color: #dcdcdc;
+    background-color: #121212;
+     box-shadow: 
+    0 4px 6px rgba(0, 0, 0, 0.1),
+    0 10px 20px rgba(0, 0, 0, 0.15),
+    0 15px 25px rgba(0, 0, 0, 0.2);
+}
+.about p, .mission p, .vision p, .motto p{
+    padding-top: 1vw;
+}
+.about h1, .mission h1, .vision h1, .motto h1{
+    padding-bottom: 1vw;
+}
+hr{
+    width: 90%;
+}
+.us{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 2vw 3vw 1vw 3vw;
+}

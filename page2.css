@@ -1,0 +1,46 @@
+.grid img {
+    width: 15vw;
+    height: 15vw;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 
+    0 4px 6px rgba(0, 0, 0, 0.1),
+    0 10px 20px rgba(0, 0, 0, 0.15),
+    0 15px 25px rgba(0, 0, 0, 0.2);
+}
+.wrapper{
+    height: 78vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2vw;
+}
+.grid img:hover{
+    transform: scale(1.1);    
+}
+.offers{
+    height: 10vw;
+}
+.offers-heading {
+    font-size: 30px;
+    font-weight: bold;
+    color: #333; 
+    text-align: center;
+    margin-bottom: 1vw;
+}
+.discounts {
+    font-size: 22px;
+    color: #555; 
+    text-align: center;
+}
+.highlight {
+    color: #6E0000; 
+    font-weight: bold;
+}
+  
+  

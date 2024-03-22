@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="icon" href="New Project 54 [25F745C].png" type="image/x-icon">
+    <link rel="stylesheet" href="page3.css">
+    <link rel="stylesheet" href="common.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header class="navbar">
+        <nav>
+            <ul>
+                <li><a href="page1.html">Home</a>
+                <li><a href="page5.html">About us</a>
+                <li><a href="page2.html">Our products</a>
+                <li><a href="page4.html">Contact us</a>
+            </ul>
+        </nav>
+    </header>
+    <div class="wrapper">
+   <form id="form" onsubmit="return checkpassword()" class="Form">
+    <ul>
+        <li style="margin-top: 1.5vw;"><input type="text" placeholder="Enter your Name" required><hr>
+        <li><input type="email" placeholder="Enter your Email" required><hr></li>
+        <li><input type="tel" placeholder="Enter your Phone Number" required><hr></li>
+        <li><input type="password" id="pass1" placeholder="Enter your password" required><hr></li>
+        <li><input type="password" id="pass2" placeholder="Enter your password again" required><hr></li>
+        <li><input type="text" placeholder="Enter your City" required><hr></li>
+        <li><input type="text" placeholder="Enter your State" required><hr></li>
+        <li><input type="text" placeholder="Enter your Country" required><hr></li>
+        <li><input type="number" placeholder="Enter your Pincode" required><hr></li>
+        <li style="margin-bottom: 1vw;"><input type="number" min="16" max="100" placeholder="Enter your age" required><hr>
+    </ul>
+    <div class="buttons">
+        <button type="submit" class="submit">Submit</button>
+        <button type="reset" class="reset">Reset</button>
+    </div>
+   </form>
+   <footer>
+    <div class="container">
+    <div class="contact-info">
+        <p>Email: info@snapnstick.com</p>
+        <p>Phone: +91 98765 43218</p>
+        <p>Andrahalli main road, Nagasandra, Bengaluru</p>
+    </div>
+</div>
+    <div class="social-media">
+        <a href="#" target="_blank"><img src="instagram.png" alt="Instagram"></a>
+        <a href="#" target="_blank"><img src="facebook.png" alt="Facebook"></a>
+        <a href="#" target="_blank"><img src="twitter.png" alt="Twitter"></a>
+    </div>
+    <div class="container">
+    <div class="newsletter">
+        <p>Subscribe to our newsletter for updates:</p>
+        <form action="/subscribe" method="post">
+            <input type="email" name="email" placeholder="Your email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </div>
+</div> 
+    <div class="copyright">
+        <p>&copy; 2024 Snap 'n' Stick. All rights reserved.</p>
+    </div>
+</footer>
+</div>
+</body>
+</html>
